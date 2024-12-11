@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("../images/yanga.jpeg");
+    background-color: rgb(17, 75, 17);
+    background-position: fixed;
+    
+    
+    }
+    .body{
+        background-color: rgba(255, 251, 0, 0.411);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .top_bar{
+        background-color: rgb(17, 75, 17);
+        border-bottom: black 3px solid;
+        margin-top: 0%;
+       
+    }
+    .h2_top{
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 0%;
+        color: white;
+    }
+    .main{
+       
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .abt_h3{
+        text-align: center;
+    }
+    .abt{
+        text-align: justify
+    }
+
+    .about{
+        width: 300px;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        
+        
+        
+    }
+    .history{
+        width: 300px;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        
+       
+       
+    }
+    .coach{
+        width: 600px;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        height: fit-content;
+       
+    }
+    .coacher{
+        width: 300px;
+    }
+    .coacher_desc{
+        display: flex;
+        text-align: justify;
+    }
+    .footer{
+        background-color: rgb(12, 56, 12);
+        width: 100%;
+        margin-bottom: 0%;
+        bottom: 0;
+        position: fixed;
+    }
+    .p_f{
+        margin-bottom: 0%;
+        padding: 30px;
+        color: white;
+        text-align: center;
+        margin-top: 0%;
+        
+    }
+    @media only screen and (max-width: 767px){
+        .about{
+            width: 100%;
+
+        }
+        .history{
+            width: 100%;
+        }
+    }

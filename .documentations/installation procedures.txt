@@ -1,0 +1,47 @@
+The system is created by php technology so in order to access it you need to install APACHE SERVER or any other server
+
+#############################   INSTALLATION PROCESS IN APACHE SERVER   #############################
+
+1:  Download and install apache server on XAMPP and also download MYSQL (both are in XAMPP package).
+2:  After installation open xampp control panel (this is for windows OS)
+3:  For Linux u need to start your server on terminal(like cmd in windows) by the folowing command 
+	
+	"sudo /opt/lampp/lampp start"
+	
+4:  To all OS copy the folder named TusajiriPamoja to the following directory.
+	
+	windows: C:\xampp\htdocs
+	Linux:	 /opt/lampp/htdocs
+5:  Then after you need to create database named "ytp_db" the following are the process to create and import database 
+	i. open xampp control panel and click on the shell.
+	ii. on the shell window write the following command to create database.
+			
+			mysql -u root
+	
+	then press enter.
+	
+	iii. after pressing enter write the following commands 
+			
+		CREATE DATABASE ytp_db;
+	
+	then press enter.
+	
+	iv. after that write the following command
+		
+		EXIT
+
+	then press enter.
+
+	v. then write the following command
+		
+		mysql -u root ytp_db < "./htdocs/TusajiriPamoja/ytp_db.sql"
+
+	then press enter
+
+6:   The installation is complete go to the web browser and seach the following link to access your system
+
+		http://127.0.0.1/TusajiriPamoja
+
+
+
+##########################  INSTALLATION COMPLETED  ############################################################

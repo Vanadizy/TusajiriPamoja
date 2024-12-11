@@ -1,0 +1,186 @@
+body{
+    margin: 0 auto;
+    background-image: url("/project_official/images/aeroplane.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+
+}
+.admin{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    transition: 0.4;
+    border-radius: 10px;
+    margin: 5px;
+    border-bottom: 3px solid black;
+
+}
+.admin:hover{
+    background-color: green;
+    transform: scale(1.2);
+    transition: 0.4s;
+    border-radius: 10px;
+    border-bottom: 3px solid white;
+    color: white;
+    cursor: pointer;
+}
+.navigator{
+    background-color: rgba(0, 0, 0, 0.205);
+}
+.header{
+    position: static;
+    width: 100%;
+    
+
+}
+.backform{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: black;
+    
+}
+.backtable{
+    position: relative;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    display: none;
+    overflow-y: scroll;
+  
+
+    
+}
+.schedule{
+    margin-left: 40%;
+    background-color: rgb(173, 145, 92);
+    width: fit-content;
+    padding: 50px;
+    box-shadow: rgb(97, 47, 47) 0 30px 100px 0;
+    border-radius: 5px;
+
+}
+.input{
+    padding: 5px;
+    background-color: wheat;
+}
+#submitsch{
+    background-color: blue;
+    margin-left: 20%;
+    transition: 0.4s;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+#submitsch:hover{
+    background-color: green;
+    transition: 0.4s;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: white;
+}
+.booking_table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    overflow-y: scroll;
+    background-color: rgb(83, 95, 202);
+    height: 2000px;
+
+}
+.booking_table th{
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.frm{
+    background-color: rgb(36, 23, 23);
+    color: white;
+}
+
+.to{
+    background-color: rgb(36, 23, 23);
+    color: white;
+}
+.booking_table td{
+    border: 2px solid black;
+}
+.trdat{
+    background-color: rgba(255, 255, 0, 0.514);
+    
+}
+#xo{
+    padding: 7px;
+    color: red;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+#so{
+    padding: 7px;
+    color: red;
+    float: right;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+#xo:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+#so:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.home{
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px)
+{
+    body{
+    margin: 0 auto;
+    font-size: 10px;
+    background-size: contain;
+    background-position: center;
+
+}
+.schedule{
+    margin: 0 auto;
+
+}
+#so{
+    margin-right: 5%;
+}
+.booking_table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    overflow-y: scroll;
+    background-color: rgb(83, 95, 202);
+    /* height: 2000px; */
+
+}
+}

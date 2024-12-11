@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(17, 75, 17);
+    margin: 0 auto;
+}
+.body{
+    background-color: rgba(255, 255, 0, 0.918);
+    position: absolute;
+    bottom: 0;
+
+}
+
+h1{
+    text-align: center;
+}
+.top_bar{
+    background-color: rgb(17, 75, 17);
+    border-bottom: black 3px solid;
+    margin-top: 0%;
+   
+}
+.h2_top{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 0%;
+    color: white;
+}
+body{
+    background-image: url("../images/yanga.jpeg");
+}
+.methods{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex; 
+}
+.halotel{
+    background-color: rgb(255, 166, 0);
+    height: 50px;
+    width: 100px;
+    transition: 0.3s;
+    cursor: pointor;
+}
+.halotel:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointor;
+}
+.airtel{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointor;
+}
+.airtel:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointor;
+}
+.crdb{
+    background-color: green;
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointor;
+}
+.crdb:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointor;
+}
+.azam{
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointor;
+
+}
+.azam:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointor;
+}
+.tigo{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    color: white;
+    transition: 0.3s;
+    cursor: pointor;
+}
+.tigo:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointor;
+}
+.vodacom{
+    background-color: rgb(148, 0, 0);
+    height: 50px;
+    width: 100px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointor;
+   
+}
+.vodacom:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointor;
+}
+button{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: fit-content;
+}
+.all{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+}
+.online{
+    margin-left: 100px;
+    color: white;
+
+}
+.ssid{
+    margin-right: 100px;
+    color: white;
+}
+.footer{
+    background-color: rgb(12, 56, 12);
+    width: 100%;
+    margin-bottom: 0%;
+    bottom: 0;
+    position: fixed;
+}
+.p_f{
+    margin-bottom: 0%;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+    
+}
